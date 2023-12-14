@@ -3,14 +3,22 @@
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link href="https://fonts.googleapis.com/css2?family=Happy+Monkey&family=Poppins:wght@400;500;600&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Happy+Monkey&family=Poppins&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
   
   <link rel="stylesheet" href="style.css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
   <title>Moma's kitchen</title>
 </head>
+
 
 <body>
   <div class="navbar">
@@ -18,16 +26,59 @@
     <img src="images/Food-Logo-Graphics-1-70.jpg" alt="" class="logo">
 
       <nav>
-        <a href="">Home</a>
-        <a href="">About</a>
-        <a href="">Order</a>
-        <a href="">Our Restaurants</a>
+        
+        <a href="#" class="animate__animated">Home</a>
+        <a href="#">About</a>
+        <a href="#">Order</a>
+        <a href="#">Our Restaurants</a>
+        <a href="#" class="alert">Alert</a>
+
         <a href="recipe.html" target="_blank">Recipe of the month</a>
       </nav>
   </div>
+
+  <div id="particles-js"></div> 
+    <div class="count-particles"> <span class="js-count-particles">
+    </span></div> 
 <div class="hero">
   
-     <h1>Welcome to Moma's kicthen!</h1>
+  <div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <img src= "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8Zm9vZHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=800&q=60" />
+      </div>
+      <div class="swiper-slide">
+        <img src="https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8Zm9vZHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=800&q=60" />
+      </div>
+      <div class="swiper-slide">
+        <img src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGZvb2R8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=800&q=60/" >
+      </div>
+      <div class="swiper-slide">
+        <img src="https://images.unsplash.com/photo-1606787366850-de6330128bfc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fGZvb2R8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=800&q=60" />
+      </div>
+      <div class="swiper-slide">
+        <img src="https://images.unsplash.com/photo-1512621776951-a57141f2eefd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGZvb2R8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=800&q=60" />
+      </div>
+      <div class="swiper-slide">
+        <img src="https://images.unsplash.com/photo-1484723091739-30a097e8f929?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGZvb2R8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=800&q=60" />
+      </div>
+      <div class="swiper-slide">
+        <img src="https://images.unsplash.com/photo-1493770348161-369560ae357d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjN8fGZvb2R8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=800&q=60" />
+      </div>
+      <div class="swiper-slide">
+        <img src="https://plus.unsplash.com/premium_photo-1663852705829-aa8707495e2e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjF8fGZvb2R8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=800&q=60" />
+      </div>
+      <div class="swiper-slide">
+        <img src="https://images.unsplash.com/photo-1498837167922-ddd27525d352?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjV8fGZvb2R8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=800&q=60" />
+      </div>
+    </div>
+    <div class="swiper-pagination"></div>
+  </div>
+
+
+
+
+  
 
 </div>
 
@@ -68,7 +119,7 @@
 <div class="footer-content">
   
       <h2>Footer</h2>
-         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor, ullam?</p>
+         <h6>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor, ullam?</h6>
               <ul class="socials">
                 <li><a href=""><i class="fa fa-facebook"></i>  </a> </li>
                 <li><a href=""><i class="fa fa-twitter"></i>  </li>
@@ -85,7 +136,17 @@
     
 </div>
 
+
+
 </footer>
+<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+
+<script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script> <script src="http://threejs.org/examples/js/libs/stats.min.js"></script>
+ <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script> 
+ <script src="http://threejs.org/examples/js/libs/stats.min.js"></script>
+
+<script src="./main.js"></script>
   
 </body>
 </html>
